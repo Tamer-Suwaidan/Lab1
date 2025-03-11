@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1 - My Info</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container */
+        .container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Heading */
+        h2 {
+            color: #007acc;
+        }
+
+        /* List */
+        .info-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .info-list li {
+            padding: 8px;
+            font-size: 18px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Images */
+        .images {
+            margin: 20px 0;
+        }
+
+        .images img {
+            width: 45%;
+            height: auto;
+            border-radius: 5px;
+            margin: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Buttons */
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .buttons button {
+            background-color: #007acc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .buttons button:hover {
+            background-color: #005f99;
+        }
+
+        .close-btn {
+            background-color: red;
+        }
+
+        .close-btn:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>My Information</h2>
+        <ul class="info-list">
+            <li><strong>Name:</strong> Tamer Suwaidan</li>
+            <li><strong>ID:</strong> 164299</li>
+            <li><strong>Major:</strong> Cybersecurity</li>
+            <li><strong>GPA:</strong> 2.7</li>
+        </ul>
+
+        <div class="images">
+            <img src="mypic.jpeg" alt="My Picture">
+        </div>
+
+        <h3>If you want to contact me, please click <a href="mailto:tmsuwaidan22@cit.just.edu.jo">HERE</a></h3>
+
+        <div class="buttons">
+            <button onclick="goToGitHub()">GitHub</button>
+        </div>
+    </div>
+    <script>
+        function goToGitHub() {
+            window.location.href = "https://github.com/Tamer-Suwaidan";
+        }
+		function goToGitHub() {
+            window.location.href = "https://github.com/Tamer-Suwaidan";
+        }
+    </script>
+</body>
+</html>
